@@ -29,7 +29,7 @@ public class Gugudan extends HttpServlet {
 		//구구단 출력하는 코드 짜는곳
 		System.out.println("doGet() 실행");
 		
-		int dan = Integer.parseInt(request.getParameter("dan"));
+		int dan = Integer.parseInt(request.getParameter("dan"));    
 		
 		System.out.println(dan);
 		
